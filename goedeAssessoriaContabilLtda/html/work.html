@@ -1,0 +1,54 @@
+<div class="container" id="workContainer">
+    <div class="row" id="workContainerRow">
+        <div class="col-md-4 align-self-center text-center">
+            <h2>TRABALHE CONOSCO</h2>
+            <p>A Goede atua com mais de 25 funcionáraios, oferecendo salário compativel com a função, plano de saúde corporativo, convênio de descontos, vale alimentação, vale transporte, entre outros benefícios para oferecer o melhor para nossos colaboradores.</p>
+            <a href="https://www.linkedin.com/company/goede-assessoria-contabil/jobs/" target="_blank"><p id="workContainerA">VAGAS DISPONÍVEIS</p></a>
+        </div>
+        <div class="col-md-8 align-self-center">
+            <img src="/images/svg/work.svg" class="img-fluid">
+        </div>
+    </div>
+    <h2 id="workContainerh2">CADASTRE SEU CURRÍCULO</h2>
+    <form name="workForm" action="/php/workSend.php" method="post">
+        <h3>INFORMAÇÕES DE CONTATO</h3>
+        <hr>
+        <div class="form-group">
+            <label for="workFormName">Nome Completo</label>
+            <input type="text" name="name" class="form-control" id="workFormName" maxlength="60" required>
+            <label for="workFormEmail">E-mail</label>
+            <input type="email" name="email" class="form-control" id="workFormEmail" maxlength="80" required>
+            <label for="workFormTelCel">Telefone/Celular</label>
+            <input type="tel" name="phone" class="form-control" id="workFormTelCel" maxlength="20" required>
+        </div>
+        <h3>OBJETIVO</h3>
+        <hr>
+        <div class="form-group">
+            <label for="workFormObjective">Área Pretendida</label>
+            <input type="text" name="pretendedArea" class="form-control" id="workFormObjective" maxlength="50" required>
+        </div>
+        <h3>FORMAÇÃO ACADÊMICA</h3>
+        <hr>
+        <div class="form-group">
+            <label for="workFormAcademic">Formações Acadêmicas</label>
+            <textarea name="academicGraduation" class="form-control" id="workFormAcademic" rows="6" maxlength="500" required></textarea>
+        </div>
+        <h3>EXPERIÊNCIA PROFISSIONAL</h3>
+        <hr>
+        <div class="form-group">
+            <label for="workFormExperience">Experiências Profissionais</label>
+            <textarea name="professionalExperience" class="form-control" id="workFormExperience" rows="6" maxlength="500" required></textarea>
+        </div>
+        <h3>LINGUAS EXTRANGEIRAS</h3>
+        <hr>
+        <div class="form-group">
+            <label for="workFormLanguages">Linguas Extrangeiras</label>
+            <textarea name="otherLanguages" class="form-control" id="workFormLanguages" rows="3" maxlength="100"></textarea>
+        </div>
+        <div class="form-check" id="workFormCheck">
+            <input class="form-check-input" type="checkbox" value="" id="workFormCheckBox" required>
+            <label class="form-check-label" for="workFormCheckBox">Aceito os termos de privacidade e o envio dos meus dados conforme a Política de Privacidade e Cookies.</label>
+        </div>
+        <button type="submit" name="submit" class="btn btn-primary button">Enviar</button>
+    </form>
+</div>
