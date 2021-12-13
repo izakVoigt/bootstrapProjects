@@ -1,0 +1,15 @@
+.button {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    color: rgb(72, 155, 108);
+    border-color: rgb(72, 155, 108);
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+}
+.button:hover {
+    background-image: linear-gradient(to right, rgb(72, 155, 108), rgb(66, 137, 97));
+    border-color: transparent;
+}
